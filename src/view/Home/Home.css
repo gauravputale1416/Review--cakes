@@ -1,0 +1,50 @@
+.min-h-screen{
+    min-width: 100vh
+}
+.w-full{
+    width: 100%;
+margin: 0%;
+background-color:#f5f5dc;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 0; /* Background layer */
+    overflow: hidden;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.inset-0{
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+.z-0{
+    z-index: 0;
+    
+}
+.main{
+    height: 100%;
+}
+.heading{
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    font-weight: bold;
+     color: #7c792a;
+}
+.head{
+    position: relative;
+    z-index: 2; /* Above background */
+    display: flex;
+    text-align: center;
+    margin-left: 43%;
+    min-height: 100vh; /* Center vertically */
+   
+}
