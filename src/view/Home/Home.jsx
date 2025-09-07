@@ -52,7 +52,7 @@ function Home() {
 
 <div className='show'>
   <div className='pic' style={{ transform: `scale(${sliderValue / 100})` }}>{img}</div>
-  <div>Zoom<input type='range' min="0" max="100" className='slider' onChange={(e) => { setSliderValue(e.target.value); }} value={sliderValue} /> {sliderValue}</div>
+  <div><span className='zoom'>Zoom</span><input type='range' min="0" max="100" className='slider' onChange={(e) => { setSliderValue(e.target.value); }} value={sliderValue} /> {sliderValue}</div>
 </div>
 
   </div>
